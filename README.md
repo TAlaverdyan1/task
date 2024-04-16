@@ -1,62 +1,70 @@
-# CRUD React Project 
+# Getting Started with Create React App
 
-This repository contains a CRUD (Create, Read, Update, Delete) React project that allows you to interact with data stored in a local JSON database (db.json). The project is built using React and styled with SCSS. It provides a user interface to perform various actions on the data, including viewing detailed information, modifying records, deleting records, and adding new records. This README will guide you through the setup, usage, and structure of the project.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Technologies Used
-+ React
-+ SCSS
-+ JSON database (db.json)
+## Available Scripts
 
+In the project directory, you can run:
 
-## Getting Started
+### `npm start`
 
-### Prerequisites
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Before you begin, make sure you have the following installed:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Node.js: [Download and install Node.js]((https://nodejs.org/en))
-Git: [Download and install Git](https://git-scm.com/)
+### `npm test`
 
-### Installation
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Clone this repository using Git:
-    ```bash
-     git clone https://github.com/Tigranuhi-A/crud_react.git
+### `npm run build`
 
-2. Navigate to the project directory:
-   ```bash
-    cd crud_react
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. Install the project dependencies:
-   ```bash
-    npm install
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-4. Start the development server:
-   ```bash
-    npm run dev
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Usage
+### `npm run eject`
 
-### View Data
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Upon accessing the application, you will be presented with a list of data retrieved from the db.json database file.
-Click on a specific item to view detailed information about it.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Modify Data
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-To modify an existing record, navigate to the detailed view of that record and click on the "Edit" button.
-Make the necessary changes and save the modifications.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Delete Data
-To delete a record, navigate to the detailed view of that record and click on the "Delete" button.
+## Learn More
 
-### Add New User
-To add a new user to the database, navigate to the "Add" section.
-Fill in the required information and click the "Save" button to add the new user.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-#
+### Code Splitting
 
-Thank you for checking out the React Cinema Project! If you have any questions or suggestions, feel free to open an issue or contact us. Happy coding! 🚀
-   
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
